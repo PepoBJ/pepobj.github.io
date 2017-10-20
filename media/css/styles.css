@@ -1,0 +1,35 @@
+* {
+	font-family: monospace;
+}
+
+body 
+{
+	background-color: steelblue;
+}
+
+#cabezera
+{
+	background-color: #fff;
+	margin-top: .5em;
+	padding: 1em 0;
+}
+.img_profile
+{
+	background: url('../img/profile.jpg') no-repeat center;
+	background-position: 0 0;
+	background-size: 12em;
+	height: 12em;
+	width: 12em;
+}
+
+.nombre_completo h1
+{
+	font-size: 1.7em;
+	line-height: 0;
+}
+
+.profesion h2 
+{
+	font-size: 1.2em;
+	line-height: 0;
+}
