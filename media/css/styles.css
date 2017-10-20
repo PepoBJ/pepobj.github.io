@@ -1,5 +1,6 @@
 * {
 	font-family: monospace;
+	color: #49515a;
 }
 
 body 
@@ -18,6 +19,7 @@ body
 	background: url('../img/profile.jpg') no-repeat center;
 	background-position: 0 0;
 	background-size: 12em;
+	border: 1px solid rgba(73, 81, 90, .8);
 	height: 12em;
 	width: 12em;
 }
@@ -32,4 +34,66 @@ body
 {
 	font-size: 1.2em;
 	line-height: 0;
+}
+
+.redes_item
+{
+	background-color: rgba(73, 81, 90, 0.62);
+	border-radius: 50%;
+	height: 32px;
+	margin-right:.5em;
+	padding: .5em;
+	transition: ease-out all .3s;
+	width: 32px;
+}
+.redes_item:hover 
+{
+	background-color:  steelblue;
+	text-decoration: none;
+}
+.redes_item i 
+{
+	color: #fff;
+}
+
+.boton_enviar
+{
+	background-color: rgba(73, 81, 90, .8) !important;
+	font-weight: bold;
+	transition: ease-out all .3s;
+	text-align: center;
+}
+
+.boton_enviar:hover
+{
+	background-color: rgba(73, 81, 90, 1) !important;
+}
+
+.boton_enviar i, .boton_enviar span
+{
+	color: #fff
+}
+
+@media all and (max-width:640px){
+	.nombre_completo h1
+	{
+		line-height: 1;
+	}
+
+	.profesion, .nombre_completo, .redes_sociales
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+	}
+
+	.redes_sociales
+	{
+		margin: 1.5em 0;
+	}
 }
