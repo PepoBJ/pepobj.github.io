@@ -137,7 +137,7 @@ body
 	margin-bottom: 1rem;
 }
 
-#about .titulo
+#about .titulo, .item_aside .titulo
 {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -148,17 +148,62 @@ body
 	padding: 1em 0 ;
 }
 
-#datos-contancto i
+#datos-contancto i, #educacion i
 {
 	width: 32px;
 	text-align: center;
 	line-height: 2;
 	color: rgba(73, 81, 90, .3);
+	vertical-align: middle;
 }
 
 #datos-contancto a
 {
 	font-weight: bold;
+}
+
+#educacion .grado_academico
+{
+	margin-bottom: 1rem;
+}
+
+#educacion .grado_academico:last-child
+{
+	margin-bottom: 1.7rem;
+}
+
+.icono_grado
+{
+	width: 32px;
+	display: inline-block;
+	margin: 0;
+}
+
+.grado_datos
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.grado_datos > span
+{
+	display: block;
+}
+
+.grado_datos .grado
+{
+	font-weight: bold;
+}
+
+.grado_datos .universidad .nombre_universidad
+{
+	color: rgba(73, 81, 90, .4);
+	font-weight: bold;
+}
+
+.grado_datos .universidad .tiempo_universidad
+{
+	color: rgba(73, 81, 90, .4);
 }
 
 @media all and (max-width:640px){
@@ -186,8 +231,8 @@ body
 	}
 	.item_aside
 	{
-		margin-bottom: 0;
-		margin-top: 1.5rem;
+		margin-bottom: .5rem;
+		margin-top: 1rem;
 	}
 
 }
