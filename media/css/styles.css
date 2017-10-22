@@ -226,6 +226,11 @@ body
 		justify-content:center;
 	}
 
+	.grado_datos
+	{
+		vertical-align: middle;
+	}
+
 	.redes_sociales
 	{
 		margin: 1.5em 0;
