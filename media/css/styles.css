@@ -11,7 +11,6 @@ body
 #cabezera
 {
 	background-color: #fff;
-	margin-top: .5em;
 	padding: 1em 0;
 }
 .img_profile
@@ -20,8 +19,8 @@ body
 	background-position: 0 0;
 	background-size: 12em;
 	border: 1px solid rgba(73, 81, 90, .8);
-	height: 12em;
-	width: 12em;
+	height: 12rem;
+	width: 12rem;
 }
 
 .nombre_completo h1
@@ -72,6 +71,41 @@ body
 .boton_enviar i, .boton_enviar span
 {
 	color: #fff
+}
+
+.colores
+{
+	
+}
+
+.color 
+{
+	height: .5rem;
+}
+
+.color-1
+{
+	background-color: rgba(73, 81, 90, 1);
+}
+
+.color-2
+{
+	background-color: #ce5f5f
+}
+
+.color-3
+{
+	background-color: rgba(73, 81, 90, 1);
+}
+
+.color-4
+{
+	background-color: #ce5f5f
+}
+
+.color-5
+{
+	background-color: rgba(73, 81, 90, 1);
 }
 
 @media all and (max-width:640px){
