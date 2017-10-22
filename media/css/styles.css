@@ -5,7 +5,7 @@
 
 body 
 {
-	background-color: steelblue;
+	background-color: #4682b41f;
 }
 
 #cabezera
@@ -45,11 +45,18 @@ body
 	transition: ease-out all .3s;
 	width: 32px;
 }
+
+.redes_item:last-child
+{
+	margin-right: 0;
+}
+
 .redes_item:hover 
 {
 	background-color:  steelblue;
 	text-decoration: none;
 }
+
 .redes_item i 
 {
 	color: #fff;
@@ -90,7 +97,7 @@ body
 
 .color-2
 {
-	background-color: #ce5f5f
+	background-color: #ce5f5f;
 }
 
 .color-3
@@ -100,12 +107,58 @@ body
 
 .color-4
 {
-	background-color: #ce5f5f
+	background-color: #ce5f5f;
 }
 
 .color-5
 {
 	background-color: rgba(73, 81, 90, 1);
+}
+
+.parrafo
+{
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.contenedor
+{
+	margin-top: 2rem;
+}
+
+.item_contenido, .item_aside
+{
+	background: #FFF;
+	font-size: 1.1em;
+}
+
+.item_aside
+{
+	margin-bottom: 1rem;
+}
+
+#about .titulo
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#datos-contancto
+{
+	padding: 1em 0 ;
+}
+
+#datos-contancto i
+{
+	width: 32px;
+	text-align: center;
+	line-height: 2;
+	color: rgba(73, 81, 90, .3);
+}
+
+#datos-contancto a
+{
+	font-weight: bold;
 }
 
 @media all and (max-width:640px){
@@ -130,4 +183,10 @@ body
 	{
 		margin: 1.5em 0;
 	}
+	.item_aside
+	{
+		margin-bottom: 0;
+		margin-top: 1.5rem;
+	}
+
 }
