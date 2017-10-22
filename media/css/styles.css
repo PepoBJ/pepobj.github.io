@@ -165,6 +165,7 @@ body
 	.nombre_completo h1
 	{
 		line-height: 1;
+		text-align: center;
 	}
 
 	.profesion, .nombre_completo, .redes_sociales
