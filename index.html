@@ -5,8 +5,12 @@
 	<title>Robert BJ Huaman Caceres</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="media/font-awesome/css/font-awesome.min.css">
+	<script  src="media/js/github-calendar.min.js"></script>
+	<link  rel="stylesheet"  href="media/css/github-calendar.css"/>
+	<link  rel="stylesheet"  href="media/css/github-calendar-responsive.css"/>
 	<link rel="stylesheet" href="media/css/ed-grid.min.css">
 	<link rel="stylesheet" href="media/css/styles.css">
+
 </head>
 <body class="desarrollo-">
 	<div id="content_colores">
@@ -124,6 +128,16 @@
 					</div>
 				</div>
 			</div>
+
+			<div id="about" class="ed-item padding-2 item_contenido">
+				<h3 class="titulo">GitHub - Contributions</h3>
+				<div class="calendar">
+				    <div class="cargando">
+				    	<i class="fa fa-spinner" aria-hidden="true"></i>
+				    	<span>Cargando Datos...</span>
+				    </div>
+				</div>
+			</div>			
 		</section>
 
 		<aside id="aside_content" class="ed-item l-padding-3 m-45 l-35">
@@ -198,5 +212,24 @@
 		</aside>
 	</div>
 
+	<footer id="pie">
+		<div id="content_colores_footer">
+			<div class="ed-container full colores colores_footer">
+				<div class="ed-item s-20 color color-1"></div>
+				<div class="ed-item s-20 color color-2"></div>
+				<div class="ed-item s-20 color color-3"></div>
+				<div class="ed-item s-20 color color-4"></div>
+				<div class="ed-item s-20 color color-5"></div>
+				<div class="ed-item m-25 main-center cross-center">
+			</div>
+		</div>
+		<div class="texto_footer">
+			<span class="texto"><i class="fa fa-user" aria-hidden="true"></i> Robert BJ HC <i class="fa fa-copyright" aria-hidden="true"></i> 2017</span>
+		</div>
+	</footer>
+
+<script>
+    new GitHubCalendar(".calendar", "pepobj", {summary_text: "", global_stats: false, responsive : true});
+</script>
 </body>
 </html>

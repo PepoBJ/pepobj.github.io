@@ -90,6 +90,11 @@ body
 	height: .5rem;
 }
 
+.colores_footer > .color
+{
+	height: 2.5rem;
+}
+
 .color-1
 {
 	background-color: rgba(73, 81, 90, 1);
@@ -356,6 +361,48 @@ body
 	font-weight: bold;
 }
 
+.cargando
+{
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.calendar
+{
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 1.2rem;
+	border: none;
+}
+
+#pie
+{
+	margin-top: 1rem;
+	position: relative;
+}
+
+.texto_footer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0);
+	text-align: center;
+	bottom: 0;
+}
+
+.texto_footer .texto
+{
+	color: rgba(255,255,255,.8);
+	display: inline-block;
+	margin-top: .75rem;
+	font-weight: bold;
+}
+.texto_footer .texto i
+{
+	color: rgba(255,255,255,.8);
+}
 
 @media all and (max-width:640px){
 	.nombre_completo h1
