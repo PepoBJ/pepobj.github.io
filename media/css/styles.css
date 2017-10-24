@@ -187,6 +187,7 @@ body
 {
 	color: rgba(73, 81, 90, .4);
 	font-weight: bold;
+	font-size: .9em;
 }
 
 .grado_datos .universidad .tiempo_universidad,
