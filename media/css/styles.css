@@ -182,7 +182,8 @@ body
 	font-weight: bold;
 }
 
-.grado_datos .universidad .nombre_universidad
+.grado_datos .universidad .nombre_universidad,
+.trabajo_datos .institucion .nombre_institucion
 {
 	color: rgba(73, 81, 90, .4);
 	font-weight: bold;
