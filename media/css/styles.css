@@ -17,6 +17,7 @@ body
 	border: 1px solid rgba(73, 81, 90, .8);
 	height: 12rem;
 	width: 12rem;
+	background-position: top center;
 }
 
 .nombre_completo h1
