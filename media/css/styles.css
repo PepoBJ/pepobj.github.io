@@ -155,7 +155,8 @@ body
 }
 
 .icono_grado,
-.icono_trabajo
+.icono_trabajo,
+.icono_proyecto
 {
 	width: 32px;
 	display: inline-block;
@@ -163,7 +164,8 @@ body
 }
 
 .grado_datos,
-.trabajo_datos
+.trabajo_datos,
+.proyecto_datos
 {
 	display: inline-block;
 	vertical-align: bottom;
@@ -171,19 +173,22 @@ body
 }
 
 .grado_datos > span,
-.trabajo_datos > span
+.trabajo_datos > span,
+.proyecto_datos > span
 {
 	display: block;
 }
 
 .grado_datos .grado,
-.trabajo_datos .cargo
+.trabajo_datos .cargo,
+.proyecto_datos .institucion
 {
 	font-weight: bold;
 }
 
 .grado_datos .universidad .nombre_universidad,
-.trabajo_datos .institucion .nombre_institucion
+.trabajo_datos .institucion .nombre_institucion,
+.proyecto_datos .lugar_proyecto .nombre_lugar
 {
 	color: rgba(73, 81, 90, .4);
 	font-weight: bold;
@@ -191,7 +196,8 @@ body
 }
 
 .grado_datos .universidad .tiempo_universidad,
-.trabajo_datos .institucion .tiempo_trabajo
+.trabajo_datos .institucion .tiempo_trabajo,
+.proyecto_datos .lugar_proyecto .tiempo_trabajo
 {
 	color: rgba(73, 81, 90, .4);
 }
@@ -298,9 +304,6 @@ body
 	background: rgba(73, 81, 90, 1);
 }
 
-
-
-
 .skill .nombre_skill
 {
 	color: rgba(255,255,255,.9);
@@ -374,7 +377,7 @@ body
 }
 
 #datos-contancto i, #educacion i,
-#trabajos i
+#trabajos i, #proyectos i
 {
 	width: 32px;
 	text-align: center;
@@ -389,13 +392,15 @@ body
 }
 
 #educacion .grado_academico,
-#trabajos .item_trabajo
+#trabajos .item_trabajo,
+#proyectos .item_proyecto
 {
 	margin-bottom: 1rem;
 }
 
 #educacion .grado_academico:last-child,
-#trabajos .item_trabajo:last-child
+#trabajos .item_trabajo:last-child,
+#proyectos .item_proyecto:last-child
 {
 	margin-bottom: 1.7rem;
 }
@@ -439,7 +444,8 @@ body
 		justify-content:center;
 	}
 
-	.grado_datos, .trabajo_datos
+	.grado_datos, .trabajo_datos,
+	.proyecto_datos
 	{
 		vertical-align: middle;
 	}
