@@ -1,0 +1,67 @@
+{
+	"name": "portafolio-robert-hc",
+	"version": "1.0.0",
+	"description": "Portafolio de Robert BJ HC",
+	"main": "gulpfile.js",
+	"scripts": {
+		"pug": "gulp pug",
+		"sass": "gulp sass",
+		"es6": "gulp es6",
+		"build:dev": "npm run pug && npm run sass && npm run es6",
+		"serve": "browser-sync start --server --startPath \"dist\" --files \"dist/**/*.+(html|css|js)\"",
+		"watch:pug": "onchange \"./dev/pug/**\" -- npm run pug",
+		"watch:sass": "onchange \"./dev/scss/**\" -- npm run sass",
+		"watch:es6": "onchange \"./dev/es6/**\" -- npm run es6",
+		"watch:dev": "parallelshell \"npm run serve\" \"npm run watch:pug\" \"npm run watch:sass\" \"npm run watch:es6\"",
+		"img": "gulp img",
+		"webp": "gulp webp",
+		"fonts": "gulp fonts",
+		"build:media": "npm run img && npm run webp && npm run fonts",
+		"css": "gulp css",
+		"js": "gulp js",
+		"html": "gulp html",
+		"build:prod": "npm run css && npm run js && npm run html",
+		"watch:css": "onchange \"./dist/css/**\" -- npm run css",
+		"watch:js": "onchange \"./dist/js/**\" -- npm run js",
+		"watch:html": "onchange \"./dist/**\" -- npm run html",
+		"watch:prod": "parallelshell \"npm run serve\" \"npm run watch:css\" \"npm run watch:js\" \"npm run watch:html\"",
+		"start": "npm run build:prod && npm run watch:prod"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PepoBJ/PepoBJ.github.io.git"
+	},
+	"author": "Robert BJ HC <bj112143@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PepoBJ/PepoBJ.github.io/issues"
+	},
+	"homepage": "https://github.com/PepoBJ/PepoBJ.github.io#readme",
+	"dependencies": {
+		"ed-grid": "^2.1.6",
+		"font-awesome": "^4.7.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-preset-es2015": "^6.24.1",
+		"browser-sync": "^2.23.3",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.1.0",
+		"gulp-babel": "^7.0.0",
+		"gulp-clean-css": "^3.9.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-pug": "^3.3.0",
+		"gulp-sass": "^3.1.0",
+		"gulp-svgmin": "^1.2.4",
+		"gulp-uglify": "^3.0.0",
+		"gulp-uncss": "^1.0.6",
+		"gulp-useref": "^3.1.4",
+		"gulp-webp": "^3.0.0",
+		"imagemin-pngquant": "^5.0.1",
+		"npm-run-all": "^4.1.2",
+		"onchange": "^3.3.0",
+		"parallelshell": "^3.0.2"
+	}
+}

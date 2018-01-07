@@ -1,0 +1,87 @@
+mixin pic(name, ext)
+	picture
+		source(srcset=`img/webp/${name}.webp`, type="image/webp")
+		img(src=`img/${name}.${ext}`)
+
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title= title
+		
+		meta(name="keywords", content="robert huaman caceres, backend abancay, unamba, Developer, pepobj")
+		meta(name="description", content="Portafolio de Robert BJ HC Software Developer")
+
+		//- Open Graph data
+		meta(property="og:title", content=`${title}`)
+		meta(property="og:type", content="Portafolio")
+		meta(property="og:url", content=`${uri}`)
+		meta(property="og:image", content=`${uri}/img/pepobj-github.png`)
+		meta(property="og:site_name", content=`${title}`)
+		meta(property="og:admins", content="100003972177311")
+		meta(property="og:description", content="Portafolio de Robert BJ HC Software Developer.")
+
+		//- Twitter Card data
+		meta(name="twitter:card", content="summary")
+		meta(name="twitter:site", content="@BJPepO")
+		meta(name="twitter:title", content=`${title}`)
+		meta(name="twitter:description", content="Portafolio de Robert BJ HC Software Developer.")
+		meta(name="twitter:creator", content="@BJPepO")
+		meta(name="twitter:image", content=`${uri}/img/pepobj-github.png`)
+
+		//- Google+ data
+		meta(itemprop="name", content=`${title}`)
+		meta(itemprop="description", content="Portafolio de Robert BJ HC Software Developer." )
+		meta(itemprop="image", content=`${uri}/img/pepobj-github.png`)
+
+		link(rel="shortcut icon", type="image/png", href=`${uri}/img/favicon.png`)
+		
+		// build:css css/estilos.min.css 
+		each css in files.CSS
+			link(rel="stylesheet", href=`../${css}`)
+		// endbuild 
+	body
+		#content_colores
+			.ed-container.full.colores
+				.ed-item.s-20.color.color-1
+				.ed-item.s-20.color.color-2
+				.ed-item.s-20.color.color-3
+				.ed-item.s-20.color.color-4
+				.ed-item.s-20.color.color-5
+
+		header#cabezera
+			.ed-container
+				.ed-item.m-25.main-center.cross-center
+					.img_profile.circle
+
+				.ed-item.ed-container.m-50
+					.ed-item.cross-end.nombre_completo
+						h1 Robert BJ Huamán Cáceres
+					.ed-item.profesion
+						h2 Software Developer
+					
+					.ed-item.main-start.redes_sociales
+						a.redes_item.cross-center.main-center(href="https://twitter.com/BJPepO", target="_blank")
+							i.fa.fa-twitter(aria-hidden="true")
+						a.redes_item.cross-center.main-center(href="https://www.facebook.com/rbjpepo", target="_blank")
+							i.fa.fa-facebook(aria-hidden="true")
+						a.redes_item.cross-center.main-center(href="https://plus.google.com/u/0/116974580313755007504", target="_blank")
+							i.fa.fa-google-plus(aria-hidden="true")
+						a.redes_item.cross-center.main-center(href="https://www.linkedin.com/in/robert-bj-huaman/", target="_blank")
+							i.fa.fa-linkedin(aria-hidden="true")
+						a.redes_item.cross-center.main-center(href="https://github.com/pepobj", target="_blank")
+							i.fa.fa-github-alt(aria-hidden="true")
+
+				.ed-item.main-center.cross-center.m-25
+					a.button.radius.boton_enviar(href="mailto:bj112143@gmail.com")
+						i.fa.fa-envelope-o
+						span.boton_texto ENVÍAME UN MENSAJE
+
+		//- +pic('aros-olimpicos', 'jpg')
+
+		// build:js js/codigos.min.js
+		each js in files.JS
+			script(src=`../${js}`)
+		// endbuild 
