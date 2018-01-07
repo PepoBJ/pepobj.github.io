@@ -1,5 +1,5 @@
 ---
-redirect_from: "/foo/"
+redirect_from: "/dist/"
 ---
 
 # Mi Portafolio
