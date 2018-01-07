@@ -1,5 +1,5 @@
 ---
-redirect_from: "/dist/"
+redirect_from: "/dist/index.html"
 ---
 
 # Mi Portafolio
