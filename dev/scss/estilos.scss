@@ -1,3 +1,8 @@
+@import "library/github-calendar";
+@import "library/github-calendar-responsive";
+@import "font-awesome/scss/font-awesome";
+@import "ed-grid/ed-grid";
+
 $color1: rgba(73, 81, 90, .8);
 $color2: rgba(73, 81, 90, 1);
 $rosado: #ce5f5f;
@@ -10,6 +15,9 @@ $rosado: #ce5f5f;
 body 
 {
 	background-color: rgba(70, 130, 180, 0.12156862745098039);
+}
+.texto {
+	padding-left: .5em;
 }
 
 .img_profile
@@ -369,7 +377,7 @@ body
 	padding: 1em 0 ;
 }
 
-#datos-contancto, #educaon,
+#datos-contancto, #educacion,
 #trabajos, #proyectos
 {
 	i 

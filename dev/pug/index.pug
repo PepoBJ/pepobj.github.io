@@ -1,8 +1,3 @@
-mixin pic(name, ext)
-	picture
-		source(srcset=`img/webp/${name}.webp`, type="image/webp")
-		img(src=`img/${name}.${ext}`)
-
 <!DOCTYPE html>
 html(lang="es")
 	head
@@ -38,10 +33,7 @@ html(lang="es")
 
 		link(rel="shortcut icon", type="image/png", href=`${uri}/img/favicon.png`)
 		
-		// build:css css/estilos.min.css 
-		each css in files.CSS
-			link(rel="stylesheet", href=`../${css}`)
-		// endbuild 
+		link(rel="stylesheet", href=`../${css}`)
 	body
 		#content_colores
 			.ed-container.full.colores
@@ -77,11 +69,134 @@ html(lang="es")
 				.ed-item.main-center.cross-center.m-25
 					a.button.radius.boton_enviar(href="mailto:bj112143@gmail.com")
 						i.fa.fa-envelope-o
-						span.boton_texto ENVÍAME UN MENSAJE
+						span.boton_texto  ENVÍAME UN MENSAJE
 
-		//- +pic('aros-olimpicos', 'jpg')
+		.ed-container.contenedor
+			section#contenido.ed-item.ed-container.m-55.l-65
+				#about.ed-item.padding-2.item_contenido
+					h3.titulo Sobre mi
+					p.parrafo
+						| Hola, soy estudiante en Ingeniería informática y sistemas de la Universidad Nacional Micaela Bastidas de Apurímac, el desarrollo de software es una de una de mis grandes pasiones, además de leer y escribir. Hace casi 5 años desde que escribí mi primera línea de código, desde ese día tuve claro que es lo que haría toda mi vida.
+					p.parrafo
+						| Durante todo este tiempo aprendí muchas cosas, me volví autodidacta, y eso me ayudó mucho a aprender todo lo que ahora conozco. Siempre tengo ganas de aprender nuevas tecnologías y profundizar en las que ya conozco. Me interesa mucho seguir aprendiendo patrones de diseño, principios de calidad de software, y entre muchas otras cosas que me ayuden a poder desarrollar software de calidad. En mi trabajo siempre hago mi mayor esfuerzo para lograr un software de calidad, y el cliente esté contento con el producto final.
+				#skill_content.ed-item.padding-2.item_contenido
+					h3.titulo Skills
+					.skill
+						.skill_html
+							span.nombre_skill HTML5
+							span.competado_skill 75%
+					.skill
+						.skill_css
+							span.nombre_skill CSS3
+							span.competado_skill 60%
+					.skill
+						.skill_js
+							span.nombre_skill Javascript(ES6)
+							span.competado_skill 80%
+					.skill
+						.skill_git
+							span.nombre_skill Git/GitHub
+							span.competado_skill 70%
+					.skill
+						.skill_php
+							span.nombre_skill PHP
+							span.competado_skill 80%
+					.skill
+						.skill_net
+							span.nombre_skill .NET
+							span.competado_skill 70%
+					.skill
+						.skill_java
+							span.nombre_skill Java
+							span.competado_skill 70%
+					.skill
+						.skill_cpp
+							span.nombre_skill CPP
+							span.competado_skill 55%
+				#github-contributions.ed-item.padding-2.item_contenido
+					h3.titulo GitHub - Contributions
+					.calendar
+						.cargando
+							i.fa.fa-spinner(aria-hidden="true")
+							span Cargando Datos...
 
-		// build:js js/codigos.min.js
+			aside#aside_content.ed-item.l-padding-3.m-45.l-35
+				#datos-contancto.ed-item.ed-container.item_aside
+					.ed-item
+						i.fa.fa-map-marker(aria-hidden="true")
+						span.texto Abancay, Perú.
+					.ed-item
+						i.fa.fa-envelope-o
+						span.texto bj112143@gmail.com
+					.ed-item
+						i.fa.fa-link
+						span.texto
+						a(href="https://landingcode.blogspot.pe/" target="_blank") Landing Code
+				#educacion.ed-item.ed-container.item_aside
+					.ed-item
+						h3.titulo Educación
+					.ed-item.grado_academico
+						.icono_grado
+							i.fa.fa-graduation-cap
+						.texto.grado_datos
+							span.grado
+								| Ingeniería Informática
+								wbr
+								|  y Sistemas
+							span.universidad
+								span.nombre_universidad UNAMBA
+								span.tiempo_universidad (2011-2017)
+				#trabajos.ed-item.ed-container.item_aside
+					.ed-item
+						h3.titulo Últimos Trabajos
+					.ed-item.item_trabajo
+						.icono_trabajo
+							i.fa.fa-briefcase
+						.texto.trabajo_datos
+							span.cargo Software Developer
+							span.institucion
+								span.nombre_institucion Spring Valley Software
+								span.tiempo_trabajo (2017)
+					.ed-item.item_trabajo
+						.icono_trabajo
+							i.fa.fa-briefcase
+						.texto.trabajo_datos
+							span.cargo Founder at CodeGroup
+							span.institucion
+								span.nombre_institucion CodeGroup
+								span.tiempo_trabajo (2016)
+				#proyectos.ed-item.ed-container.item_aside
+					.ed-item
+						h3.titulo Últimos Proyectos
+					.ed-item.item_proyecto
+						.icono_proyecto
+							i.fa.fa-globe(aria-hidden="true")
+						.texto.proyecto_datos
+							span.institucion
+								a(href="http://radioantena2000.com/" target="_blank") Radio Antena 2000
+							span.lugar_proyecto
+								span.nombre_lugar Abancay
+								span.tiempo_trabajo (2016-2017)
+				#blog_feed.ed-item.ed-container.item_aside
+					.ed-item
+						h3.titulo Landing Code
+					.ed-item.rss_blog
+						.feed
+							script(src="https://feeds.feedburner.com/LandingCode?format=sigpro" type="text/javascript")
+		footer#pie
+			#content_colores_footer
+				.ed-container.full.colores.colores_footer
+					.ed-item.s-20.color.color-1
+					.ed-item.s-20.color.color-2
+					.ed-item.s-20.color.color-3
+					.ed-item.s-20.color.color-4
+					.ed-item.s-20.color.color-5
+			.texto_footer
+				span.texto
+					i.fa.fa-user(aria-hidden="true")
+					|  Robert BJ HC 
+					i.fa.fa-copyright(aria-hidden="true")
+					|  2017
+
 		each js in files.JS
-			script(src=`../${js}`)
-		// endbuild 
+			script(src=`${js}`)
