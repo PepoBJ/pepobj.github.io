@@ -34,7 +34,7 @@ const gulp   = require('gulp'),
 			pretty : true,
 			locals : {
 				title : 'Robert BJ Huaman Caceres',
-				uri: 'https://pepobj.github.io/',
+				uri: 'https://pepobj.github.io/dist',
 				files : files,
 				css: 'css/estilos.css'
 			}
