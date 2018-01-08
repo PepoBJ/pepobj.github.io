@@ -6,9 +6,31 @@
 $color1: rgba(73, 81, 90, .8);
 $color2: rgba(73, 81, 90, 1);
 $rosado: #ce5f5f;
+$body-font: Lato, 'sans-serif';
+$heading-font: 'Open Sans', 'sans-serif';
+
+// Font sizes
+$fontSizes: (
+  t1      : rem(36px),
+  t2      : rem(30px),
+  t3      : rem(24px),
+  normal  : rem(20px),
+  small   : rem(16px),
+  smaller : rem(14px),
+);
+
+// Get font size from map
+@function fontSize($size) {
+  @if map-has-key($fontSizes, $size) {
+    @return map-get($fontSizes,$size)
+  } @else {
+    @error '$size is not valid, valid values are t1, t2, t3, normal, small, smaller'
+  }
+}
 
 * {
-	font-family: monospace;
+	font-family: $body-font;
+	font-size: fontSize(small);
 	color: #49515a;
 }
 
@@ -24,7 +46,7 @@ body
 {
 	background: url('../img/profile.jpg') no-repeat center;
 	background-position: 0 0;
-	background-size: 12em;
+	background-size: cover;
 	border: 1px solid $color1;
 	height: 12rem;
 	width: 12rem;
@@ -33,13 +55,15 @@ body
 
 .nombre_completo h1
 {
-	font-size: 1.7em;
-	line-height: 0;
+	font-family: $heading-font;
+	font-size: fontSize(normal);
+	font-weight : 700;
 }
 
 .profesion h2 
 {
-	font-size: 1.2em;
+	font-family: $body-font;
+	font-size: fontSize(small);
 	line-height: 0;
 }
 
@@ -87,7 +111,9 @@ body
 {
 	i, span 
 	{
-		color: #fff
+		color: #fff;
+		font-size: fontSize(smaller);
+		font-weight: 700;
 	}
 }
 
@@ -155,8 +181,9 @@ body
 
 .item_contenido .titulo, .item_aside .titulo
 {
-	font-size: 1.5em;
-	font-weight: bold;
+	font-family: $heading-font;
+	font-size: fontSize(normal);
+	font-weight : 700;
 }
 
 .icono_grado,
@@ -188,7 +215,9 @@ body
 .trabajo_datos .cargo,
 .proyecto_datos .institucion
 {
-	font-weight: bold;
+	font-family: $body-font;
+	font-size: fontSize(small);
+	font-weight : 700;
 }
 
 .grado_datos .universidad .nombre_universidad,
@@ -196,8 +225,9 @@ body
 .proyecto_datos .lugar_proyecto .nombre_lugar
 {
 	color: rgba(73, 81, 90, .4);
-	font-weight: bold;
-	font-size: .9em;
+	font-family: $body-font;
+	font-size: fontSize(smaller);
+	font-weight : 700;
 }
 
 .grado_datos .universidad .tiempo_universidad,
@@ -205,6 +235,8 @@ body
 .proyecto_datos .lugar_proyecto .tiempo_trabajo
 {
 	color: rgba(73, 81, 90, .4);
+	font-family: $body-font;
+	font-size: fontSize(smaller);
 }
 
 .feed ul
@@ -356,10 +388,12 @@ body
 
 .texto_footer .texto
 {
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.9);
 	display: inline-block;
 	margin-top: .75rem;
-	font-weight: bold;
+	font-family: $heading-font;
+	font-size: fontSize(small);
+	font-weight : 700;
 }
 .texto_footer .texto i
 {

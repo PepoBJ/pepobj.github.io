@@ -6251,7 +6251,8 @@ body.sticky-footer>footer{
 }
 
 *{
-  font-family:monospace;
+  font-family:Lato,"sans-serif";
+  font-size:1rem;
   color:#49515a;
 }
 
@@ -6266,7 +6267,7 @@ body{
 .img_profile{
   background:url(../img/profile.jpg) no-repeat 50%;
   background-position:0 0;
-  background-size:12em;
+  background-size:cover;
   border:1px solid rgba(73,81,90,.8);
   height:12rem;
   width:12rem;
@@ -6274,12 +6275,14 @@ body{
 }
 
 .nombre_completo h1{
-  font-size:1.7em;
-  line-height:0;
+  font-family:Open Sans,"sans-serif";
+  font-size:1.25rem;
+  font-weight:700;
 }
 
 .profesion h2{
-  font-size:1.2em;
+  font-family:Lato,"sans-serif";
+  font-size:1rem;
   line-height:0;
 }
 
@@ -6319,6 +6322,8 @@ body{
 
 .boton_enviar i,.boton_enviar span{
   color:#fff;
+  font-size:.875rem;
+  font-weight:700;
 }
 
 .color{
@@ -6368,7 +6373,8 @@ body{
 }
 
 .item_aside .titulo,.item_contenido .titulo{
-  font-size:1.5em;
+  font-family:Open Sans,"sans-serif";
+  font-size:1.25rem;
   font-weight:700;
 }
 
@@ -6389,17 +6395,22 @@ body{
 }
 
 .grado_datos .grado,.proyecto_datos .institucion,.trabajo_datos .cargo{
+  font-family:Lato,"sans-serif";
+  font-size:1rem;
   font-weight:700;
 }
 
 .grado_datos .universidad .nombre_universidad,.proyecto_datos .lugar_proyecto .nombre_lugar,.trabajo_datos .institucion .nombre_institucion{
   color:rgba(73,81,90,.4);
+  font-family:Lato,"sans-serif";
+  font-size:.875rem;
   font-weight:700;
-  font-size:.9em;
 }
 
 .grado_datos .universidad .tiempo_universidad,.proyecto_datos .lugar_proyecto .tiempo_trabajo,.trabajo_datos .institucion .tiempo_trabajo{
   color:rgba(73,81,90,.4);
+  font-family:Lato,"sans-serif";
+  font-size:.875rem;
 }
 
 .feed ul{
@@ -6523,12 +6534,15 @@ body{
 }
 
 .texto_footer .texto{
+  color:hsla(0,0%,100%,.9);
   display:inline-block;
   margin-top:.75rem;
+  font-family:Open Sans,"sans-serif";
+  font-size:1rem;
   font-weight:700;
 }
 
-.texto_footer .texto,.texto_footer .texto i{
+.texto_footer .texto i{
   color:hsla(0,0%,100%,.8);
 }
 
