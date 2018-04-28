@@ -6447,37 +6447,37 @@ body{
   margin-bottom:1.7rem;
 }
 
-.skill_cpp,.skill_css,.skill_git,.skill_html,.skill_java,.skill_js,.skill_net,.skill_php{
+.skill_cpp,.skill_css,.skill_git,.skill_html,.skill_java,.skill_js,.skill_mysql,.skill_net,.skill_php,.skill_sqlserver{
   border-radius:5px;
 }
 
 .skill_html{
-  width:75%;
+  width:90%;
   background:#ce5f5f;
 }
 
 .skill_css{
-  width:60%;
+  width:80%;
   background:#3b658a;
 }
 
 .skill_js{
-  width:80%;
+  width:90%;
   background:#249991;
 }
 
 .skill_git{
-  width:85%;
+  width:90%;
   background:#49515a;
 }
 
 .skill_php{
-  width:80%;
+  width:90%;
   background:#ce5f5f;
 }
 
 .skill_net{
-  width:85%;
+  width:90%;
   background:#3b658a;
 }
 
@@ -6489,6 +6489,16 @@ body{
 .skill_cpp{
   width:55%;
   background:#49515a;
+}
+
+.skill_sqlserver{
+  width:80%;
+  background:#ce5f5f;
+}
+
+.skill_mysql{
+  width:80%;
+  background:#3b658a;
 }
 
 .skill .nombre_skill{

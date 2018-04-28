@@ -287,44 +287,46 @@ body
 .skill_php,
 .skill_net,
 .skill_java,
-.skill_cpp
+.skill_cpp,
+.skill_sqlserver,
+.skill_mysql
 {
 	border-radius: 5px;
 }
 
 .skill_html
 {
-	width: 75%;
+	width: 90%;
 	background: $rosado;
 }
 
 .skill_css
 {
-	width: 60%;
+	width: 80%;
 	background: #3b658a;
 }
 
 .skill_js
 {
-	width: 80%;
+	width: 90%;
 	background: #249991
 }
 
 .skill_git
 {
-	width: 85%;
+	width: 90%;
 	background: $color2;
 }
 
 .skill_php
 {
-	width: 80%;
+	width: 90%;
 	background: $rosado;
 }
 
 .skill_net
 {
-	width: 85%;
+	width: 90%;
 	background: #3b658a;
 }
 
@@ -338,6 +340,18 @@ body
 {
 	width: 55%;
 	background: $color2;
+}
+
+.skill_sqlserver
+{
+	width: 80%;
+	background: $rosado;
+}
+
+.skill_mysql
+{
+	width: 80%;
+	background: #3b658a;
 }
 
 .skill .nombre_skill
