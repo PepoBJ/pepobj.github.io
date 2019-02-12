@@ -15,6 +15,7 @@ const gulp   = require('gulp'),
 	watch       = require('gulp-watch'),
 	sourcemaps  = require('gulp-sourcemaps'),
 	pngcrush    = require('imagemin-pngcrush'),
+	version     = 'v=1.0.1',
 	dir          = {
 		dev : 'dev',
 		dist: 'dist',		
@@ -22,8 +23,8 @@ const gulp   = require('gulp'),
 	},
 	files = {
 		JS : [
-			`js/github-calendar.min.js`,
-			`js/codigos.js`
+			`js/github-calendar.min.js?${version}`,
+			`js/codigos.js?${version}`
 		],
 		fonts : [
 			`${dir.nm}/font-awesome/fonts/*.*`
@@ -36,7 +37,7 @@ const gulp   = require('gulp'),
 				title : 'Robert BJ Huaman Caceres',
 				uri: 'https://www.roberthuaman.com',
 				files : files,
-				css: 'css/estilos.css'
+				css: `css/estilos.css?${version}`
 			}
 		},
 		sass : {
