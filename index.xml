@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robert Huaman</title>
-    <link>//roberthuaman.com/</link>
+    <link>https://roberthuaman.com/</link>
     <description>Recent content on Robert Huaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="//roberthuaman.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://roberthuaman.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ingestion engine with PySpark</title>
-      <link>//roberthuaman.com/projects/ingestion-engine-pyspark/</link>
+      <link>https://roberthuaman.com/projects/ingestion-engine-pyspark/</link>
       <pubDate>Sun, 23 Oct 2022 23:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/ingestion-engine-pyspark/</guid>
+      <guid>https://roberthuaman.com/projects/ingestion-engine-pyspark/</guid>
       <description>I worked on a project in which it was necessary to perform multiple ingests of information to the datalake (on-premise). Up to that moment, the client performed new ingests of information as 100% new developments, implementing validations and processing established by the users.
 Performing ingests in this way mainly generated the following problems
 Repeated and not very scalable code. Repeated validations and processing, in case of a change it impacted on all the processes already developed.</description>
@@ -20,20 +20,20 @@ Repeated and not very scalable code. Repeated validations and processing, in cas
     
     <item>
       <title>AutoDoc</title>
-      <link>//roberthuaman.com/projects/autodoc/</link>
+      <link>https://roberthuaman.com/projects/autodoc/</link>
       <pubDate>Sun, 23 Oct 2022 20:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/autodoc/</guid>
+      <guid>https://roberthuaman.com/projects/autodoc/</guid>
       <description>All companies/customers have an established change flow for deploying components to the production environment, some more complicated and bureaucratic than others.
 Where I work, the change flow to deploy to production was a very tedious and manual process. Although there were automated pipelines in jenkins to deploy components to production, in the Jira ticket the components to be deployed had to be documented, for auditing, security and to ensure a correct rollback in case the deployment to production failed.</description>
     </item>
     
     <item>
       <title>Legacy Checker</title>
-      <link>//roberthuaman.com/projects/legacy-checker/</link>
+      <link>https://roberthuaman.com/projects/legacy-checker/</link>
       <pubDate>Sun, 23 Oct 2022 19:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/legacy-checker/</guid>
+      <guid>https://roberthuaman.com/projects/legacy-checker/</guid>
       <description>Legacy Checker, is a tool that is injected into the Remedy front end (HTML), in order to perform validations on the tickets and thus avoid making mistakes, with which the following benefits were achieved
 Early identification of errors in the ticket. Reduction of ticket deployment time (since for each error in the ticket, the initial state is reverted to the initial state). Reduction of manual errors. Languages/Technologies:
 Javascript (ES6) Regex Gulp OOP </description>
@@ -41,10 +41,10 @@ Javascript (ES6) Regex Gulp OOP </description>
     
     <item>
       <title>👨‍💻 About me</title>
-      <link>//roberthuaman.com/about/</link>
+      <link>https://roberthuaman.com/about/</link>
       <pubDate>Thu, 20 Oct 2022 23:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/about/</guid>
+      <guid>https://roberthuaman.com/about/</guid>
       <description>📧 bj112143@gmail.com 📱 +51952296425
 I&amp;rsquo;m a system engineer with more than 5 years of experience in software development and data processing working with different programming languages such as Scala, Python, C#, Spark. With skills to plan, design, develop and lead software/data solutions with quality and high scalability, applying software design patterns, testing, software architecture and good coding practices.
 💼 EXPERIENCE 👉 Indra-Minsait, Sr Data Engineer —January 2021-Present
@@ -53,10 +53,10 @@ Development of an ingest engine for Datalake, in Spark, reducing development tim
     
     <item>
       <title>How to master Streamlit for Data Science</title>
-      <link>//roberthuaman.com/blogs/how-to-master-streamlit-for-data-science/</link>
+      <link>https://roberthuaman.com/blogs/how-to-master-streamlit-for-data-science/</link>
       <pubDate>Fri, 08 Apr 2022 23:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/blogs/how-to-master-streamlit-for-data-science/</guid>
+      <guid>https://roberthuaman.com/blogs/how-to-master-streamlit-for-data-science/</guid>
       <description>Preview The essential Streamlit for all your data science needs To build a web app you’d typically use such Python web frameworks as Django and Flask. But the steep learning curve and the big time investment for implementing these apps present a major hurdle.
 Streamlit makes the app creation process as simple as writing Python scripts!
 In this article, you’ll learn how to master Streamlit when getting started with data science.</description>
@@ -64,10 +64,10 @@ In this article, you’ll learn how to master Streamlit when getting started wit
     
     <item>
       <title>What Is Bioinformatics</title>
-      <link>//roberthuaman.com/blogs/what-is-bioinformatics/</link>
+      <link>https://roberthuaman.com/blogs/what-is-bioinformatics/</link>
       <pubDate>Sun, 03 Apr 2022 23:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/blogs/what-is-bioinformatics/</guid>
+      <guid>https://roberthuaman.com/blogs/what-is-bioinformatics/</guid>
       <description>Introduction So you probably have heard of the term Bioinformatics before, but did not get the chance to learn more about what it is and what it can do.
 In this article, I will be giving you a brief high-level overview of this exciting field of Bioinformatics. Thus, the article will be comprehensible to those coming from biology or computer backgrounds alike.
 As a biologist, I have self-taught myself data science and coding (R and Python) after several years of persistence (initially quitting a couple of times the coding concept just kind of clicked at some point in time).</description>

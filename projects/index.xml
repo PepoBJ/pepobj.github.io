@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Robert Huaman</title>
-    <link>//roberthuaman.com/projects/</link>
+    <link>https://roberthuaman.com/projects/</link>
     <description>Recent content in Projects on Robert Huaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="//roberthuaman.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://roberthuaman.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ingestion engine with PySpark</title>
-      <link>//roberthuaman.com/projects/ingestion-engine-pyspark/</link>
+      <link>https://roberthuaman.com/projects/ingestion-engine-pyspark/</link>
       <pubDate>Sun, 23 Oct 2022 23:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/ingestion-engine-pyspark/</guid>
+      <guid>https://roberthuaman.com/projects/ingestion-engine-pyspark/</guid>
       <description>I worked on a project in which it was necessary to perform multiple ingests of information to the datalake (on-premise). Up to that moment, the client performed new ingests of information as 100% new developments, implementing validations and processing established by the users.
 Performing ingests in this way mainly generated the following problems
 Repeated and not very scalable code. Repeated validations and processing, in case of a change it impacted on all the processes already developed.</description>
@@ -20,20 +20,20 @@ Repeated and not very scalable code. Repeated validations and processing, in cas
     
     <item>
       <title>AutoDoc</title>
-      <link>//roberthuaman.com/projects/autodoc/</link>
+      <link>https://roberthuaman.com/projects/autodoc/</link>
       <pubDate>Sun, 23 Oct 2022 20:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/autodoc/</guid>
+      <guid>https://roberthuaman.com/projects/autodoc/</guid>
       <description>All companies/customers have an established change flow for deploying components to the production environment, some more complicated and bureaucratic than others.
 Where I work, the change flow to deploy to production was a very tedious and manual process. Although there were automated pipelines in jenkins to deploy components to production, in the Jira ticket the components to be deployed had to be documented, for auditing, security and to ensure a correct rollback in case the deployment to production failed.</description>
     </item>
     
     <item>
       <title>Legacy Checker</title>
-      <link>//roberthuaman.com/projects/legacy-checker/</link>
+      <link>https://roberthuaman.com/projects/legacy-checker/</link>
       <pubDate>Sun, 23 Oct 2022 19:15:00 +0700</pubDate>
       
-      <guid>//roberthuaman.com/projects/legacy-checker/</guid>
+      <guid>https://roberthuaman.com/projects/legacy-checker/</guid>
       <description>Legacy Checker, is a tool that is injected into the Remedy front end (HTML), in order to perform validations on the tickets and thus avoid making mistakes, with which the following benefits were achieved
 Early identification of errors in the ticket. Reduction of ticket deployment time (since for each error in the ticket, the initial state is reverted to the initial state). Reduction of manual errors. Languages/Technologies:
 Javascript (ES6) Regex Gulp OOP </description>
