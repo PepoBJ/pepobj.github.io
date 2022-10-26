@@ -4,6 +4,10 @@
     <title>Robert Huaman</title>
     <link>https://roberthuaman.com/</link>
     <description>Recent content on Robert Huaman</description>
+    <image>
+      <url>https://roberthuaman.com/images/og_image.jpg</url>
+      <link>https://roberthuaman.com/images/og_image.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://roberthuaman.com/index.xml" rel="self" type="application/rss+xml" />
