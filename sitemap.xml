@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roberthuaman.com/projects/ingestion-engine-pyspark/</loc>
+    <loc>https://pepobj.github.io/projects/ingestion-engine-pyspark/</loc>
     <lastmod>2022-10-23T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/projects/</loc>
+    <loc>https://pepobj.github.io/projects/</loc>
     <lastmod>2022-10-23T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/</loc>
+    <loc>https://pepobj.github.io/</loc>
     <lastmod>2022-10-23T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/projects/autodoc/</loc>
+    <loc>https://pepobj.github.io/projects/autodoc/</loc>
     <lastmod>2022-10-23T20:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/projects/legacy-checker/</loc>
+    <loc>https://pepobj.github.io/projects/legacy-checker/</loc>
     <lastmod>2022-10-23T19:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/about/</loc>
+    <loc>https://pepobj.github.io/about/</loc>
     <lastmod>2022-10-20T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/blogs/</loc>
+    <loc>https://pepobj.github.io/blogs/</loc>
     <lastmod>2022-04-08T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/blogs/how-to-master-streamlit-for-data-science/</loc>
+    <loc>https://pepobj.github.io/blogs/how-to-master-streamlit-for-data-science/</loc>
     <lastmod>2022-04-08T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/blogs/what-is-bioinformatics/</loc>
+    <loc>https://pepobj.github.io/blogs/what-is-bioinformatics/</loc>
     <lastmod>2022-04-03T23:15:00+07:00</lastmod>
   </url><url>
-    <loc>https://roberthuaman.com/categories/</loc>
+    <loc>https://pepobj.github.io/categories/</loc>
   </url><url>
-    <loc>https://roberthuaman.com/tags/</loc>
+    <loc>https://pepobj.github.io/tags/</loc>
   </url>
 </urlset>
