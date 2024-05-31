@@ -14,6 +14,16 @@
     <lastBuildDate>Thu, 30 May 2024 23:15:00 +0700</lastBuildDate>
     <atom:link href="https://pepobj.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>👨‍💻 About me</title>
+      <link>https://pepobj.github.io/about/</link>
+      <pubDate>Thu, 30 May 2024 23:15:00 +0700</pubDate>
+      <guid>https://pepobj.github.io/about/</guid>
+      <description>📧 bj112143@gmail.com 📱 +51952296425
+I&amp;rsquo;m a system engineer with more than 6 years of experience in software development and data processing working with different programming languages such as Scala, Python, C#, Spark. With skills to plan, design, develop and lead software/data solutions with quality and high scalability, applying software design patterns, testing, software architecture and good coding practices.
+💼 EXPERIENCE 👉 Globant, Sr Data Engineer —August 2022-Present
+Client: 🏰 Disney streaming</description>
+    </item>
+    <item>
       <title>JSON to Spark Struct Converter</title>
       <link>https://pepobj.github.io/toolbox/jsontosparkstruct/</link>
       <pubDate>Thu, 30 May 2024 23:15:00 +0700</pubDate>
@@ -45,16 +55,6 @@ Where I work, the change flow to deploy to production was a very tedious and man
       <description>Legacy Checker, is a tool that is injected into the Remedy front end (HTML), in order to perform validations on the tickets and thus avoid making mistakes, with which the following benefits were achieved
 Early identification of errors in the ticket. Reduction of ticket deployment time (since for each error in the ticket, the initial state is reverted to the initial state). Reduction of manual errors. Languages/Technologies:
 Javascript (ES6) Regex Gulp OOP </description>
-    </item>
-    <item>
-      <title>👨‍💻 About me</title>
-      <link>https://pepobj.github.io/about/</link>
-      <pubDate>Thu, 20 Oct 2022 23:15:00 +0700</pubDate>
-      <guid>https://pepobj.github.io/about/</guid>
-      <description>📧 bj112143@gmail.com 📱 +51952296425
-I&amp;rsquo;m a system engineer with more than 6 years of experience in software development and data processing working with different programming languages such as Scala, Python, C#, Spark. With skills to plan, design, develop and lead software/data solutions with quality and high scalability, applying software design patterns, testing, software architecture and good coding practices.
-💼 EXPERIENCE 👉 Globant, Sr Data Engineer —August 2022-Present
-Client: 🏰 Disney streaming</description>
     </item>
   </channel>
 </rss>
