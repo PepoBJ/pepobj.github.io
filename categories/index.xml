@@ -5,10 +5,12 @@
     <link>https://pepobj.github.io/categories/</link>
     <description>Recent content in Categories on Robert Huaman</description>
     <image>
+      <title>Robert Huaman</title>
       <url>https://pepobj.github.io/images/og_image.jpg</url>
       <link>https://pepobj.github.io/images/og_image.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pepobj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en-us</language>
+    <atom:link href="https://pepobj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
