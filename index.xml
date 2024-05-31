@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://pepobj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 23:15:00 +0700</lastBuildDate><atom:link href="https://pepobj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSON to Spark Struct Converter</title>
+      <link>https://pepobj.github.io/toolbox/jsontosparkstruct/</link>
+      <pubDate>Thu, 30 May 2024 23:15:00 +0700</pubDate>
+      
+      <guid>https://pepobj.github.io/toolbox/jsontosparkstruct/</guid>
+      <description>JSON to Spark Struct Converter is a web tool designed to streamline the process of converting JSON data into Spark structType code.</description>
+    </item>
+    
     <item>
       <title>Ingestion engine with PySpark</title>
       <link>https://pepobj.github.io/projects/ingestion-engine-pyspark/</link>
@@ -53,28 +62,6 @@ Javascript (ES6) Regex Gulp OOP </description>
 I&amp;rsquo;m a system engineer with more than 5 years of experience in software development and data processing working with different programming languages such as Scala, Python, C#, Spark. With skills to plan, design, develop and lead software/data solutions with quality and high scalability, applying software design patterns, testing, software architecture and good coding practices.
 💼 EXPERIENCE 👉 Indra-Minsait, Sr Data Engineer —January 2021-Present
 Development of an ingest engine for Datalake, in Spark, reducing development times of ingests to the RAW layer by 70%.</description>
-    </item>
-    
-    <item>
-      <title>How to master Streamlit for Data Science</title>
-      <link>https://pepobj.github.io/blogs/how-to-master-streamlit-for-data-science/</link>
-      <pubDate>Fri, 08 Apr 2022 23:15:00 +0700</pubDate>
-      
-      <guid>https://pepobj.github.io/blogs/how-to-master-streamlit-for-data-science/</guid>
-      <description>Preview The essential Streamlit for all your data science needs To build a web app you’d typically use such Python web frameworks as Django and Flask. But the steep learning curve and the big time investment for implementing these apps present a major hurdle.
-Streamlit makes the app creation process as simple as writing Python scripts!
-In this article, you’ll learn how to master Streamlit when getting started with data science.</description>
-    </item>
-    
-    <item>
-      <title>What Is Bioinformatics</title>
-      <link>https://pepobj.github.io/blogs/what-is-bioinformatics/</link>
-      <pubDate>Sun, 03 Apr 2022 23:15:00 +0700</pubDate>
-      
-      <guid>https://pepobj.github.io/blogs/what-is-bioinformatics/</guid>
-      <description>Introduction So you probably have heard of the term Bioinformatics before, but did not get the chance to learn more about what it is and what it can do.
-In this article, I will be giving you a brief high-level overview of this exciting field of Bioinformatics. Thus, the article will be comprehensible to those coming from biology or computer backgrounds alike.
-As a biologist, I have self-taught myself data science and coding (R and Python) after several years of persistence (initially quitting a couple of times the coding concept just kind of clicked at some point in time).</description>
     </item>
     
   </channel>

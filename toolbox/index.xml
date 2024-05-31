@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Toolboxes on Robert Huaman</title>
+    <link>https://pepobj.github.io/toolbox/</link>
+    <description>Recent content in Toolboxes on Robert Huaman</description>
+    <image>
+      <url>https://pepobj.github.io/images/og_image.jpg</url>
+      <link>https://pepobj.github.io/images/og_image.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2024 23:15:00 +0700</lastBuildDate><atom:link href="https://pepobj.github.io/toolbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSON to Spark Struct Converter</title>
+      <link>https://pepobj.github.io/toolbox/jsontosparkstruct/</link>
+      <pubDate>Thu, 30 May 2024 23:15:00 +0700</pubDate>
+      
+      <guid>https://pepobj.github.io/toolbox/jsontosparkstruct/</guid>
+      <description>JSON to Spark Struct Converter is a web tool designed to streamline the process of converting JSON data into Spark structType code.</description>
+    </item>
+    
+  </channel>
+</rss>
